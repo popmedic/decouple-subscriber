@@ -5,7 +5,8 @@ Pod::Spec.new do |spec|
     spec.authors      = { 'Mani Nomula' => 'c-manikanta.nomula@charter.com' }
     spec.summary      = 'Subscriber code.'
     spec.description  = "decouple the subscriber"
-    spec.source       = { :git => 'https://github.com/popmedic/decouple-subscriber.git',
+    spec.platform     = :ios, "11.0"
+    spec.source       = { :git => 'https://github.com/popmedic/decouple_subscriber.git',
                           :tag => spec.version.to_s }
     spec.dependency   'Protocols'
 end
