@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.summary      = 'Subscriber code.'
     spec.description  = "decouple the subscriber"
     spec.platform     = :ios, "11.0"
-    spec.source       = { :git => 'https://github.com/popmedic/decouple_subscriber.git',
+    spec.source       = { :git => 'https://github.com/popmedic/decouple-subscriber.git',
                           :tag => spec.version.to_s }
     spec.dependency   'Protocols'
 end
