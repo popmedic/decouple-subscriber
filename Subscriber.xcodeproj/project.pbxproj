@@ -21,7 +21,7 @@
 		AB98995E2404341E0044947A /* Subscriber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subscriber.h; sourceTree = "<group>"; };
 		AB98995F2404341E0044947A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9899662404349B0044947A /* Subscriber.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Subscriber.podspec; sourceTree = "<group>"; };
-		AB9899672404349B0044947A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AB9899672404349B0044947A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB98996A240434CB0044947A /* Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
 		E16FCFBDFAF202917C0B40FF /* Pods_Subscriber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Subscriber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
