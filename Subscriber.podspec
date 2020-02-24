@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
     spec.platform     = :ios, "11.0"
     spec.source       = { :git => 'https://github.com/popmedic/decouple-subscriber.git',
                           :tag => spec.version.to_s }
-    spec.dependency   'Protocols'
+    spec.dependency   'Protocols', '0.0.1'
 end
