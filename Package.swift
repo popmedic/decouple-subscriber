@@ -9,15 +9,15 @@ let package = Package(
             name: "Subscriber",
             targets: ["Subscriber"]),
     ],
+    dependencies: [
+        .package(
+            url: "https://github.com/popmedic/decouple-protocols.git", from:"0.0.3"
+        ),
+    ],
     targets: [
         .target(
             name: "Subscriber",
-            dependencies: [
-                .package(
-                    url: "https://github.com/popmedic/decouple-protocols.git",
-                    .exact("0.0.1")
-                )
-            ],
+            dependencies: ["Protocols"],
             path: "Sources"),
     ]
 )
